@@ -36,7 +36,7 @@ export default class LandingList extends Component {
                         <div className="blockquote-custom-icon bg-info shadow-sm"><i className="fa fa-quote-left text-white"><FontAwesomeIcon icon={faQuoteLeft} /></i></div>
                         <p className="mb-0 mt-2 font-italic">{list.blog_text.slice(0, 50)}</p>
                         <br/>
-                        <center><button type="button" className="btn btn-success" onClick={() => handleRead(list)}>Read</button></center>
+                        <center><button type="button" className="btn btn-success" onClick={() => handleRead(list)}>Read More</button></center>
                     </blockquote>
 
                 </div>

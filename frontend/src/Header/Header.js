@@ -25,7 +25,7 @@ export default class Header extends React.Component{
                 <Navbar.Collapse  id="basic-navbar-nav">
                     <Nav className="mr-auto">
                     
-                    <Nav.Link  ><Link to='/landing' style={style.color}>Landing</Link></Nav.Link>
+                    <Nav.Link  ><Link to='/landing' style={style.color}>All Blog</Link></Nav.Link>
                     <NavDropdown id="basic-nav-dropdown">
                         <NavDropdown.Item ></NavDropdown.Item>
                             {

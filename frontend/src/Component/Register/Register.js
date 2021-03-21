@@ -78,7 +78,7 @@
                                                         <i className="fas fa-envelope"><FontAwesomeIcon icon={faMailBulk} /></i>
                                                         <sub><small>abc@ab.com format will accept</small></sub>
                                                         <input className="myInput" type='text' name='email' placeholder='Email'onChange={this.handleChange} value={email} required></input><br/>
-                                                        {this.validator.message('email', this.state.email, 'required|email')}
+                                                        
                                                     </div>
                                                     <button type='submit' className="butt">CREATE ACCOUNT</button>
                                                     
