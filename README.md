@@ -2,7 +2,7 @@
 
 ## Backend: Django REST framework
 
-## Frontend: Reactjs ![Alt Text]() 
+## Frontend: Reactjs
 
 ### Login Image
 ![Alt Text](/Login.png)
