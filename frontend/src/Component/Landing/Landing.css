@@ -1,0 +1,30 @@
+.blockquote-custom {
+    position: relative;
+    font-size: 1.1rem;
+    
+  }
+  
+  .blockquote-custom-icon {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: -25px;
+    left: 50px;
+  }
+
+
+  @font-face {
+    font-family: myFirstFont;
+    src: url('../../font/Redressed-Regular.ttf');
+  }
+  h1,h2,h3,h4,h5{
+    text-shadow: 2px;
+    font-family: myFirstFont;
+  }
+  #title{
+    font-family: myFirstFont;
+  }

@@ -1,0 +1,20 @@
+/* #main{
+    display: inline-block;
+    float: inline-start;
+    margin: 10px;
+    height: 9rem;
+    width: 20.2rem;
+    margin-left: 20px;
+    margin-top:40px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+
+  } */
+  
+  .card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    
+  }
+  
+  .card-deck {
+    padding: 2px 16px;
+  }
