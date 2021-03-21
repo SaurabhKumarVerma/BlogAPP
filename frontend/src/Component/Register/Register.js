@@ -31,7 +31,7 @@
 
         submitHandler = e =>{
             e.preventDefault()
-            this.validator.showMessages();
+            
             axios.post('http://127.0.0.1:8000/registation/',this.state)
                 
                 .then(res => {
@@ -42,7 +42,7 @@
                 .catch(error => {
                     console.log(error)
                 })
-                this.props.history.push("/login")
+                // this.props.history.push("/login")
         }
 
         render() {
@@ -69,14 +69,15 @@
                                                         <i className="fas fa-user"><FontAwesomeIcon icon={faUser} /></i>
                                                         <input className="myInput" type="text" placeholder="Last Name" id="lastname" name='lastname' onChange={this.handleChange} value={lastname} required/> 
                                                     </div>
-                                                    <sub><small>Required Alphanumerica Password</small></sub>
+                                                    <sub><small>Required Alphanumerica special symbol Password</small></sub>
                                                     <div className="form-group">
                                                         <i className="fas fa-lock"><FontAwesomeIcon icon={faKey} /></i>
                                                         <input className="myInput" type="password" placeholder="Password" name='password' placeholder='Password' onChange={this.handleChange} value={password} required/> 
                                                     </div>
                                                     <div className="form-group">
+                                                    <sub><small>abc@ab.com format will accept</small></sub><br/>
                                                         <i className="fas fa-envelope"><FontAwesomeIcon icon={faMailBulk} /></i>
-                                                        <sub><small>abc@ab.com format will accept</small></sub>
+                                                        
                                                         <input className="myInput" type='text' name='email' placeholder='Email'onChange={this.handleChange} value={email} required></input><br/>
                                                         
                                                     </div>
